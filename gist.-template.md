@@ -47,27 +47,35 @@ ex: " b(a | e | i)d "
 
 ##### Character Classes:
 
+
+
 ##### Flags:
 
 After the ending /, you can add g (global search), i(case-sensitive search), or m(mult-line search) as optional flags.
 
-Grouping and Capturing
-Bracket Expressions
-Greedy and Lazy Match
-Boundaries
-Back-references
-Look-ahead and Look-behind
-Regex Components
-Anchors
-Quantifiers
-OR Operator
-Character Classes
-Flags
-Grouping and Capturing
-Bracket Expressions
-Greedy and Lazy Match
-Boundaries
-Back-references
-Look-ahead and Look-behind
+##### Grouping and Capturing:
+
+Groups multiple tokens together and creates a capture group for extracting a substring or using a backreference.
+
+It uses this " ( "
+
+##### Bracket Expressions
+
+[a-z0-9_\.-]
+[\da-z\.-] 
+[a-z\.]
+
+
+##### Greedy and Lazy Match
+
+Makes the preceding quantifier lazy, causing it to match as few characters as possible. By default, quantifiers are greedy, and will match as many characters as possible.
+
+
+
+##### Boundaries
+##### Back-references
+##### Look-ahead and Look-behind
+##### Regex Components
+
 Author
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Sky
